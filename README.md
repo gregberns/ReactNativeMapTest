@@ -6,7 +6,7 @@ On Android, when using react-native-maps with the react-native-router-flux route
 over and over, there is a large memory leak that can result in an application crash.
 
 It appears that the map instance is not disposed of. After a short look at a heap dump,
-it seems like 'AirMap' is not getting disposed. I suspect this is a native Java wrapper
+it seems like 'AirMapView' is not getting disposed. I suspect this is a native Java wrapper
 around the Google Maps instance.
 
 ## Project Setup
