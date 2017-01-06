@@ -12,7 +12,7 @@ around the Google Maps instance.
 ## Project Setup
 
 ```
-git clone https://github.com/gregberns/ReactNativeMapTest
+git clone https://github.com/gregberns/ReactNativeMapTest.git
 cd ReactNativeMapTest
 npm install
 ```
