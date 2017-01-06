@@ -2,7 +2,7 @@ The purpose of this repository is to easily reproduce a React Native Maps memory
 
 ## Problem:
 
-When using react-native-maps with the react-native-router-flux router, when a map is loaded
+On Android, when using react-native-maps with the react-native-router-flux router, when a map is loaded
 over and over, there is a large memory leak that can result in an application crash.
 
 It appears that the map instance is not disposed of. After a short look at a heap dump,
@@ -15,6 +15,7 @@ around the Google Maps instance.
 git clone https://github.com/gregberns/ReactNativeMapTest.git
 cd ReactNativeMapTest
 npm install
+react-native run-android
 ```
 
 You'll also need a Google Maps API key for the map to use.
